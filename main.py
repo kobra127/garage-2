@@ -1,5 +1,6 @@
 from operator import index
 import sys
+__name__ ="__main__"
 UserCar=[]
 Cars=[]
 with open('UserCar.txt','r',encoding='utf=8') as f:
@@ -120,3 +121,5 @@ while x!=1:
     print("============================================================================================")
     print('введите что угодно, чтобы вернуться в меню.')
     h = input()
+if __name__ == "__main__":
+    main()
